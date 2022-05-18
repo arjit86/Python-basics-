@@ -1,0 +1,47 @@
+Chapter 3 – Strings
+
+The string is a data type in Python.
+
+A string is a sequence of characters enclosed in quotes.
+
+We can primarily write a string in three ways:
+
+Single quoted strings : a = 'arjit'
+Double quoted strings : b = "arjit"
+Triple quoted strings : c = '''arjit'''
+
+String Slicing:
+A string in Python can be sliced for getting a part of the string.
+
+consider the following string 
+    54321(-)This is the negative index of the string 
+a = arjit 
+    01234 This is the positive index of  the string 
+
+String functions 
+> len() function : It returns the length of the string.
+  a = "arjit" 
+  print (len(a)) #returns the value as 5
+
+> endswith(“jit”) : This function tells whether the variable string ends 
+with the string “jit” or not. If string is “arjit”, it returns for “jit” 
+since arjit ends with jit.
+
+> count(“c”) : It counts the total number of occurrences of any character.
+capitalize() : This function capitalizes the first character 
+of a given string.
+
+> find(word) : This function finds a word and returns 
+the index of first occurrence of that word in the string.
+
+> replace(oldword, newword) : This function replaces 
+the old word with the new word in the entire string.
+
+
+Escape Sequence Characters:
+Sequence of characters after backslash ‘\’ [Escape Sequence Characters]
+
+Escape Sequence Characters comprises of more than one character but
+ represents one character when used within the string.
+
+Examples: \n (new line), \t (tab), \’ (single quote), \\ (backslash), etc.
